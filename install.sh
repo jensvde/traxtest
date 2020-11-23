@@ -2,7 +2,6 @@ SQL_ROOT_PASS=Admin@2020
 SQL_USER=jens
 SQL_USER_PASS=Admin@2020
 GITLINK=https://github.com/jensvde/traxtest.git
-GITPREFIX=traxtest
 
 sudo apt install -y expect apache2 mysql-server git nano php libapache2-mod-php php-mysql
 
