@@ -43,7 +43,7 @@ $conn->close();
     <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="font-awesome.css">
-    <link rel="icon" href="favicon.ico" type="image/x-icon"/>>
+    <link rel="icon" href="favicon.ico" type="image/x-icon"/>
 	
 	<script data-container="true" nonce="2JHgEoqysB8q69DiPMXF6A==">
 	var CP = {"list":[]};
