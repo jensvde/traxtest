@@ -17,3 +17,5 @@ sudo mysql -e "USE logs; CREATE TABLE logentries (id INT(6) UNSIGNED AUTO_INCREM
 sudo mysql -e "CREATE USER '$SQL_USER'@'localhost' IDENTIFIED WITH mysql_native_password BY '$SQL_USER_PASS';"
 sudo mysql -e "GRANT ALL ON *.* TO '$SQL_USER'@'localhost';"
 sudo mysql -e "FLUSH PRIVILEGES;"
+
+(crontab -l 2>/dev/null; echo "*/5 * * * * /path/to/job -with args") | crontab -
