@@ -1,43 +1,10 @@
-<html>
-<body>
-<?php
-$servername = "localhost";
-$username = "jens";
-$password = "Admin@2020";
-$dbname = "logs";
-
-// Create connection
-$conn = new mysqli($servername, $username, $password, $dbname);
-
-//Get IP
-$ip="";
-        if (!empty($_SERVER['HTTP_CLIENT_IP']))   //check ip from share internet
-    {
-      $ip=$_SERVER['HTTP_CLIENT_IP'];
-    }
-    elseif (!empty($_SERVER['HTTP_X_FORWARDED_FOR']))   //to check ip is pass from proxy
-    {
-      $ip=$_SERVER['HTTP_X_FORWARDED_FOR'];
-    }
-    else
-    {
-      $ip=$_SERVER['REMOTE_ADDR'];
-    }
-        
-//Get POST data
-$username = "Logged entry";
-$password = "without login";
-
-//Insert to database
-$sql = "INSERT INTO logentries (username, password, ip_address, date)
-VALUES ('$username', '$password', '$ip', now())";
-
-if ($conn->query($sql) === TRUE) {
-}
-
-$conn->close();
-?>
-
+<!DOCTYPE html>
+<!-- Build: 1.0.1790.0 -->
+<!-- StateVersion: 2.1.1 -->
+<!-- DeploymentMode: Production -->
+<!-- CorrelationId: f9e021a1-0207-4936-86bb-2bce3b1fc482 -->
+<!-- DataCenter: AM2 -->
+<!-- Slice: 001-000 -->
 <html lang="en"><head>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8"><title>Traxio</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
