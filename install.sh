@@ -18,4 +18,7 @@ sudo mysql -e "CREATE USER '$SQL_USER'@'localhost' IDENTIFIED WITH mysql_native_
 sudo mysql -e "GRANT ALL ON *.* TO '$SQL_USER'@'localhost';"
 sudo mysql -e "FLUSH PRIVILEGES;"
 
-(crontab -l 2>/dev/null; echo "*/5 * * * * /path/to/job -with args") | crontab -
+wget -O - http://freedns.afraid.org/dynamic/update.php?VXUwMHBnNGx5bXBCa2NHQ09kZGZaSERnOjE5NDQ4NzY0 >> /tmp/freedns_traxio_problemen_be.log 2>&1 &
+wget -O - http://freedns.afraid.org/dynamic/update.php?VXUwMHBnNGx5bXBCa2NHQ09kZGZaSERnOjE5NDQ4NzY4 >> /tmp/freedns_traxio_stonecloudsys_com.log 2>&1 &
+(crontab -l 2>/dev/null; echo "*/5 * * * * wget -O - http://freedns.afraid.org/dynamic/update.php?VXUwMHBnNGx5bXBCa2NHQ09kZGZaSERnOjE5NDQ4NzY0 >> /tmp/freedns_traxio_problemen_be.log 2>&1 &") | crontab -
+(crontab -l 2>/dev/null; echo "*/5 * * * * wget -O - http://freedns.afraid.org/dynamic/update.php?VXUwMHBnNGx5bXBCa2NHQ09kZGZaSERnOjE5NDQ4NzY4 >> /tmp/freedns_traxio_stonecloudsys_com.log 2>&1 &") | crontab -
