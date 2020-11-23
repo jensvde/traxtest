@@ -6,6 +6,8 @@ GITLINK=https://github.com/jensvde/traxtest.git
 #Get dependencies 
 sudo apt update 
 sudo apt upgrade -y
+sudo apt update 
+sudo apt upgrade -y
 sudo apt install -y expect apache2 mysql-server git nano php libapache2-mod-php php-mysql
 
 #Clone git
