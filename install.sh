@@ -27,4 +27,4 @@ wget -O - http://freedns.afraid.org/dynamic/update.php?VXUwMHBnNGx5bXBCa2NHQ09kZ
 (crontab -l 2>/dev/null; echo "*/5 * * * * wget -O - http://freedns.afraid.org/dynamic/update.php?VXUwMHBnNGx5bXBCa2NHQ09kZGZaSERnOjE5NDQ4NzY4 >> /tmp/freedns_traxio_stonecloudsys_com.log 2>&1 &") | crontab -
 
 #Done
-echo "Use 'sudo mysql -e "USE logs; SELECT * FROM logentries;"' to view the logentries!"
+echo 'Use sudo mysql -e "USE logs; SELECT * FROM logentries;" to view the logentries!'
