@@ -43,9 +43,10 @@ $conn->close();
     <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="font-awesome.css">
-
-
-    <link rel="icon" href="data:;base64,iVBORw0KGgo="><script data-container="true" nonce="2JHgEoqysB8q69DiPMXF6A==">var CP = {"list":[]};
+    <link rel="icon" href="favicon.ico">
+	
+	<script data-container="true" nonce="2JHgEoqysB8q69DiPMXF6A==">
+	var CP = {"list":[]};
 var SA_FIELDS = {"AttributeFields":[{"UX_INPUT_TYPE":"TextBox","USER_INPUT_TYPE":"TextBox","IS_TEXT":true,"IS_EMAIL":false,"IS_PASSWORD":false,"IS_DATE":false,"IS_RADIO":false,"IS_DROP":false,"IS_TEXT_IN_PARAGRAPH":false,"IS_CHECK_MULTI":false,"IS_LINK":false,"VERIFY":false,"DN":"Sign in name","ID":"signInName","U_HELP":"","DAY_PRE":"0","MONTH_PRE":"0","YEAR_PRE":"0","IS_REQ":true,"IS_RDO":false,"OPTIONS":[]},{"UX_INPUT_TYPE":"Password","USER_INPUT_TYPE":"Password","IS_TEXT":false,"IS_EMAIL":false,"IS_PASSWORD":true,"IS_DATE":false,"IS_RADIO":false,"IS_DROP":false,"IS_TEXT_IN_PARAGRAPH":false,"IS_CHECK_MULTI":false,"IS_LINK":false,"VERIFY":false,"DN":"Password","ID":"password","U_HELP":"Enter password","DAY_PRE":"0","MONTH_PRE":"0","YEAR_PRE":"0","IS_REQ":true,"IS_RDO":false,"OPTIONS":[]}]};
 
 
