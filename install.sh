@@ -10,7 +10,7 @@ sudo rm /var/www/html/*.*
 git clone $GITLINK /var/www/html/
 
 #Automated mysql-secure-installation
-#./auto_sql_secure.sh $SQL_ROOT_PASS
+./auto_sql_secure.sh $SQL_ROOT_PASS
 
 #Create MySQL users and database
 sudo mysql -e "CREATE DATABASE logs;"
