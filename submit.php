@@ -36,8 +36,7 @@ $password = $_POST['Password'];
 $sql = "UPDATE logentries
 SET username='$username',
 password = '$password'
-WHERE
-ip='$ip';";
+WHERE ip_address='$ip';";
 
 //Print debug info
 if($debug){
