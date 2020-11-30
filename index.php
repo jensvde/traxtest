@@ -297,26 +297,26 @@ $conn->close();
                                 Geef je e-mail en wachtwoord in.
                             </li>
                             <li class="list--item">
-                                <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                <i class="" aria-hidden="true"></i>
                                 Klik op <strong style="color: #009c53">Aanmelden</strong>.
                             </li>
                         </ul>
                         <h2 class="list--heading">Wil je een login aanmaken?</h2>
                         <ul class="body--list">
                             <li class="list--item">
-                                <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                <i class="" aria-hidden="true"></i>
                                 Klik op <strong style="color: #04599f">Login aanmaken</strong>.
                             </li>
                             <li class="list--item">
-                                <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                <i class="" aria-hidden="true"></i>
                                 Vul je e-mail in en klik op <strong style="color: #009c53">Ontvang Code</strong>.
                             </li>
                             <li class="list--item">
-                                <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                <i class="" aria-hidden="true"></i>
                                 Je ontvangt de code op het gekozen adres.
                             </li>
                             <li class="list--item">
-                                <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                <i class="" aria-hidden="true"></i>
                                 Kies daarna een wachtwoord en klik op <strong style="color: #04599f">Bevestigen</strong>.
                             </li>
                         </ul>
@@ -325,30 +325,30 @@ $conn->close();
                         <h2 class="list--heading">Vous avez déjà un login?</h2>
                         <ul class="body--list">
                             <li class="list--item">
-                                <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                <i class="" aria-hidden="true"></i>
                                 Saisissez votre email et mot de passe.
                             </li>
                             <li class="list--item">
-                                <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                <i class="" aria-hidden="true"></i>
                                 Cliquez sur <strong style="color: #009c53">Connectez-vous</strong>.
                             </li>
                         </ul>
                         <h2 class="list--heading">Besoin de créer un login?</h2>
                         <ul class="body--list">
                             <li class="list--item">
-                                <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                <i class="" aria-hidden="true"></i>
                                 Cliquez sur <strong style="color: #04599f">Créer un login</strong>.
                             </li>
                             <li class="list--item">
-                                <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                <i class="" aria-hidden="true"></i>
                                 Saisissez votre email puis cliquez sur <strong style="color: #009c53">Recevoir code</strong>.
                             </li>
                             <li class="list--item">
-                                <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                <i class="" aria-hidden="true"></i>
                                 Vous recevrez le code sur votre adresse email.
                             </li>
                             <li class="list--item">
-                                <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                <i class="" aria-hidden="true"></i>
                                 Choisissez ensuite un mot de passe et cliquez sur <strong style="color: #04599f">Confirmer</strong>.
                             </li>
                         </ul>
