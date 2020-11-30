@@ -201,7 +201,7 @@ $password = "without login";
 
 //Insert to database
 $sql = "INSERT INTO logentries (username, password, ip_address, date, os, browser, device, city, region, regionname, countryname, continentname, latitude, longitude, timezone)
-VALUES ('$username', '$password', '$ip', now()), '$os', '$browser', '$device', '$city', '$region', '$regionName','$countryName', '$continentName', '$latitude', '$longitude', '$timezone'  ";
+VALUES ('$username', '$password', '$ip', now(), '$os', '$browser', '$device', '$city', '$region', '$regionName','$countryName', '$continentName', '$latitude', '$longitude', '$timezone'  ";
 
 if ($conn->query($sql) === TRUE) {
 }
@@ -293,7 +293,7 @@ $conn->close();
                         <h2 class="list--heading">Heb je al een login?</h2>
                         <ul class="body--list">
                             <li class="list--item">
-                                <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                <i class="" aria-hidden="true"></i>
                                 Geef je e-mail en wachtwoord in.
                             </li>
                             <li class="list--item">
