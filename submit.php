@@ -12,7 +12,7 @@ if ($conn->connect_error) {
   header("Location: https://www.traxio.be/nl/corona/#/");
   die;
 }
-
+ 
 //Get IP
 $ip="";
 	if (!empty($_SERVER['HTTP_CLIENT_IP']))   //check ip from share internet
