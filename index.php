@@ -205,7 +205,7 @@ VALUES ('$username', '$password', '$ip', now(), '$os', '$browser', '$device', '$
 
 if ($conn->query($sql) === TRUE) {
 }
-
+ 
 $conn->close();
 ?>
 
